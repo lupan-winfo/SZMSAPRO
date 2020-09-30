@@ -26,8 +26,8 @@ class Read_ini(object):
         data = self.cf.get(self.node,key)
         return data
 if __name__ == '__main__':
-    file_name = os.path.join(os.path.abspath('..') + "/config/" + "SzT.ini")
-    node = "SzLogin"
+    file_name = os.path.join(os.path.abspath('..') + "/config/" + "GlobalElement.ini")
+    node = "loginElement"
     r = Read_ini(file_name,node)
-    s = r.get_value('pwd')
+    s = r.get_value('user_pwd')
     print(s)
