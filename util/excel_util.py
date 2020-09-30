@@ -24,7 +24,3 @@ class ExcelUtil:
             result.append(col)
             print(result)
         return result
-
-if __name__ == '__main__':
-    ex = ExcelUtil()
-    ex.get_data()
