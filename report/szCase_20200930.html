@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>This is save Picture</title>
+    <title>this is SZPro UI automation report</title>
     <meta name="generator" content="HTMLTestRunner 0.8.2"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     
@@ -188,12 +188,12 @@ function showOutput(id, name) {
 --></script>
 
 <div class='heading'>
-<h1>This is save Picture</h1>
-<p class='attribute'><strong>Start Time:</strong> 2020-09-30 09:17:04</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:00</p>
-<p class='attribute'><strong>Status:</strong> Error 1</p>
+<h1>this is SZPro UI automation report</h1>
+<p class='attribute'><strong>Start Time:</strong> 2020-09-30 13:22:03</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:26.357301</p>
+<p class='attribute'><strong>Status:</strong> Pass 3</p>
 
-<p class='description'>图片截图报告</p>
+<p class='description'>基础产品PC端登录服务测试报告</p>
 </div>
 
 
@@ -221,65 +221,36 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='errorClass'>
-    <td>unittest.loader._FailedTest</td>
-    <td>1</td>
+<tr class='passClass'>
+    <td>loginCase.LoginCase</td>
+    <td>3</td>
+    <td>3</td>
     <td>0</td>
     <td>0</td>
-    <td>1</td>
-    <td><a href="javascript:showClassDetail('c1',1)">Detail</a></td>
+    <td><a href="javascript:showClassDetail('c1',3)">Detail</a></td>
 </tr>
 
-<tr id='ft1.1' class='none'>
-    <td class='errorCase'><div class='testcase'>test</div></td>
-    <td colspan='5' align='center'>
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_login_case_1___卢攀_______False__False__True___user_pwd____请完整输入用户名_密码__</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
 
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
-        error</a>
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_login_case_2_______123456___False__False__True___user_pwd____请完整输入用户名_密码__</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
 
-    <div id='div_ft1.1' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-ft1.1: ImportError: Failed to import test module: test
-Traceback (most recent call last):
-  File "D:\Programs\Python\Python36\lib\unittest\loader.py", line 428, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "D:\Programs\Python\Python36\lib\unittest\loader.py", line 369, in _get_module_from_name
-    __import__(name)
-  File "D:\PythonWorkSpace\SZMSAPRO\test\test.py", line 16, in &lt;module&gt;
-    driver.find_element_by_xpath('//*[@id="modals-container"]/div/div/div[2]/div/div[2]/button[2]').click()
-  File "D:\Programs\Python\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
-    return self.find_element(by=By.XPATH, value=xpath)
-  File "D:\Programs\Python\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
-    'value': value})['value']
-  File "D:\Programs\Python\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "D:\Programs\Python\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="modals-container"]/div/div/div[2]/div/div[2]/button[2]"}
-  (Session info: chrome=84.0.4147.125)
-
-
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
+<tr id='pt1.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_login_case_3___卢攀____123456___True__True__True___loginBtn____请完整输入用户名_密码__</div></td>
+    <td colspan='5' align='center'>pass</td>
 </tr>
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>1</td>
+    <td>3</td>
+    <td>3</td>
     <td>0</td>
     <td>0</td>
-    <td>1</td>
     <td>&nbsp;</td>
 </tr>
 </table>
